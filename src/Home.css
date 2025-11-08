@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 3000px;
+    overflow-x: hidden;
+}
+.Navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Microsoft-logo {
+    height: 80%;
+    width: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.Microsoft-logo img {
+    height: 50%;
+    width: 70%;
+    object-fit: fill;
+}
+
+.nav-iteams-1 {
+    height: 80%;
+    width: 40%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-iteams-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    &:hover{
+        border-bottom: 2px solid black;
+    }
+;
+}
+.nav-iteams-1 a:active{
+    border: 2px dotted black;
+}
+
+.nav-iteams-2 {
+    height: 80%;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+
+}
+
+.nav-iteams-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    padding: 5px;
+    &:hover{
+        border-bottom: 2px solid black;
+    }
+;
+}
+.nav-iteams-2 a:active{
+    border: 2px dotted black;
+}
+.nav-iteams-2 a i{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+
+
+
+/* main container */
+
+.carousel-item{
+    height: 500px;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+.carousel-item img{
+    height:100%;
+    width: 100%;
+    object-fit: cover; 
+
+}
+
+.carousel-control-prev  {
+   margin-top: 550px;
+   margin-left: 560px;
+   
+}
+
+.carousel-control-next {
+   margin-top: 550px;
+   margin-right: 560px;
+}
+
+.front-page-img1-heading{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+}
+.front-page-img1-paragraph{
+    width: 450px;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 100px;
+
+}
+
+.front-page-img1-button{
+    padding: 8px 16px;
+    background-color: #0078D4;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    /* cursor: pointer; */
+    &:hover{
+        background-color: #005A9E;
+    }
+}
+
+.front-page-img2-heading{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 900px;
+}
+.front-page-img2-paragraph{
+    width: 450px;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 900px;
+
+}
+
+.front-page-img2-button{
+    padding: 8px 16px;
+    background-color: #0078D4;
+    position: absolute;
+    top: 270px;
+    left: 900px;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    /* cursor: pointer; */
+    &:hover{
+        background-color: #005A9E;
+    }
+}
+
+.front-page-img2-button2{
+    /* padding: 8px 16px; */
+    /* background-color: #0078D4; */
+    position: absolute;
+    top: 320px;
+    left: 900px;
+    z-index: 1;
+    text-decoration: none;
+    color: #005A9E;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    /* cursor: pointer; */
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.front-page-other-options-container{
+    height: 200px;
+    width: 100vw;
+    /* background-color: red; */
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.front-page-other-option{
+    height: 80%;
+    width: 13%;
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.front-page-other-option img{
+    height: 25%;
+    width: 20%;
+    object-fit: cover;
+    
+}
+.front-page-other-option a{
+    font-weight: 500;
+    color: #005A9E;
+}
+
+
+.front-page-cards-container{
+    height: 450px;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+
+}
+
+.front-page-card{
+    height: 100%;
+    width: 21%;
+    background-color:white;
+    box-shadow: 0 0 10px rgb(197, 194, 194);
+}
+
+.front-page-card img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.front-page-card h3{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.front-page-card p{
+    height: 90px;
+    margin: 15px;
+    /* background-color: yellow; */
+}
+
+.front-page-card a{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #0078D4;
+    text-decoration: none;
+    color: white;
+}
+
+
+.xbox-series-s-container{
+    height: 500px;
+    width: 88vw;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.xbox-series-s-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.xbox-series-s-container h1{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 100px;
+}
+
+.xbox-series-s-container p{
+    position: absolute;
+    z-index: 1;
+    top: 270px;
+    left: 100px;
+
+}
+.xbox-series-s-container a{
+    padding: 8px 16px;
+    background-color: #0078D4;
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+}
