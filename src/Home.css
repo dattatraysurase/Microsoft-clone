@@ -67,6 +67,22 @@ body{
 
 }
 
+.All-micosoft-btn{
+    padding: 8px 16px;
+    background-color:transparent;
+    text-decoration: none;
+    font-size: 0.8em;
+    /* color: red; */
+    border: none;
+    &:hover{
+        border-bottom: 2px solid black;
+    }
+
+}
+.All-micosoft-btn:active{
+    border: 2px dotted black;
+}
+
 .nav-iteams-2 a {
     text-decoration: none;
     color: black;
@@ -85,8 +101,24 @@ body{
     font-size: 1.3em;
 }
 
+/* All-microsoft-sidebar*/
 
+.All-microsoft-btn-sidebar{
+    height: 450px;
+    width: 70vw;
+    background-color:whitesmoke;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    z-index: 2;
+}
 
+.All-microsoft-btn-sidebar-container{
+    height: 90%;
+    width: 100%;
+    background-color: aqua;
+
+}
 /* main container */
 
 .carousel-item{
@@ -245,7 +277,8 @@ body{
     height: 100%;
     width: 21%;
     background-color:white;
-    box-shadow: 0 0 10px rgb(197, 194, 194);
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgb(197, 194, 194);
 }
 
 .front-page-card img{
@@ -272,6 +305,10 @@ body{
     background-color: #0078D4;
     text-decoration: none;
     color: white;
+}
+
+#front-page-card-p{
+    height: 125px;
 }
 
 
@@ -315,4 +352,129 @@ body{
     z-index: 1;
     text-decoration: none;
     color: white;
+}
+
+
+
+
+.front-page-cards2-container{
+    height: 600px;
+    width: 100vw;
+    /* background-color:red; */
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    gap: 18px;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.front-page-cards2-heading{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    font-size: 35px;
+}
+.front-page-cards2{
+    height: 90%;
+    width: 22%;
+    background-color:white;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgb(197, 194, 194);
+}
+
+.front-page-cards2 img{
+    height: 37%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.front-page-cards2-new-btn{
+    margin-top: 100px;
+}
+
+.front-page-cards2 h3{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.front-page-cards2 p{
+    height: 110px;
+    margin: 15px;
+    /* background-color: yellow; */
+}
+
+#front-page-cards2-p{
+    height: 140px;
+}
+ 
+ .front-page-cards2 a{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #0078D4;
+    text-decoration: none;
+    color: white;
+} 
+
+
+
+
+
+
+
+.page-follow-microsoft{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 210px;
+}
+.social-media-icons{
+    margin-left: 60px;
+}
+.page-follow-microsoft h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+.social-media-icons a{
+    margin: 0 10px;
+    color: #262626;
+    font-size: 24px;
+   
+    text-decoration: none;
+}
+/* .social-media-icons a:hover{
+    color: #0078D4;
+} */
+.back-to-top{
+    margin-right: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #262626;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.back-to-top i{
+    margin-left: 8px;
+    margin-right: 15px;
+    font-size: 20px;
+    transform: rotate(-90deg);
+}
+.back-to-top:hover{
+    text-decoration: underline;
+}
+.back-to-top button{
+    background-color: #f3f3f3;
+    border: none;
+    padding: 8px 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
 }
