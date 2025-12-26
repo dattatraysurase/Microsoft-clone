@@ -1,0 +1,946 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* height: 9000px; */
+    overflow-x: hidden;
+}
+.Navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.Microsoft-logo {
+    height: 40%;
+    width: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-right:2px solid black;
+    /* overflow: hidden; */
+}
+
+.Microsoft-logo img {
+    height: 90%;
+    width: 70%;
+    object-fit: fill;
+}
+
+.nav-iteams-1 {
+    height: 80%;
+    width: 45%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-iteams-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    cursor: pointer;
+    position: relative;
+    /* background-color: red; */
+     padding: 5px; 
+    &:hover{
+        border-bottom: 2px solid black;
+    }
+;
+}
+
+#teams-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-iteams-1 a:active{
+    border: 2px dotted black;
+}
+
+.nav-iteams-2 {
+    height: 80%;
+    width: 35%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 40px;
+
+}
+
+.nav-iteams-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+.front-hero-section-container{
+    height: 900px;
+    width: 100vw;
+    /* background-color: #5d5bd4; */
+    background: linear-gradient(to bottom, #5F5BCC,#BE94FA);
+    
+}
+
+.front-hero-section-container img{
+  position: absolute;
+  bottom: -105px;
+  left: 25%;
+
+}
+
+.front-hero-section-heading{
+    height: 200px;
+  width: 600px;
+  /* background-color: red; */
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  /* font-size: 60px; */
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+
+.front-hero-section-heading h1{
+    font-size: 50px;
+}
+.front-hero-section-p{
+    position: absolute;
+    top: 38%;
+    left: 32%;
+    width: 370px;
+    /* background-color: red; */
+    text-align: center;
+    color: white;
+}
+
+.front-hero-section-buttons{
+    height: 40px;
+    width: 600px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.front-hero-section-buttons a{
+    height: 100%;
+    width: 48%;
+    background-color: white;
+    text-decoration: none;
+    color: #5F5BCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Sign-up-for-free-btn{
+    position: absolute;
+    top: 57%;
+    left: 46%;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 4;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.Built-for-every-stage-of-learning-container{
+    height: 1000px;
+    width: 100vw;
+    /* background-color: red; */
+    margin-top: 40px;
+    
+}
+
+.Built-for-every-stage-of-learning-heading-container{
+    height: 15%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.Built-for-every-stage-of-learning-cards-container{
+    height: 90%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.Built-for-every-stage-of-learning-cards{
+    height: 98%;
+    width: 42%;
+    background-color:white;
+    box-shadow: 0 0 10px rgb(210, 205, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Built-for-every-stage-of-learning-cards h2{
+    margin-top: 40px;
+}
+/*  */
+
+#Built-for-every-stage-of-learning-cards-main-img{
+     height: 40%;
+    width: 100%;
+    padding: 0 20px;
+}
+.Built-for-every-stage-of-learning-cards-info-container{
+    height: 45%;
+    width: 95%;
+    /* background-color: yellow; */
+    /* padding:  0 20px; */
+    margin-top: 20px;
+}
+
+.Built-for-every-stage-of-learning-cards-info{
+    height: 35%;
+    width: 100%;
+    /* background-color: red; */
+    z-index: 6;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Built-for-every-stage-of-learning-cards-info img{
+    height: 35%; 
+    width: 8%;
+    object-fit: contain;
+
+}
+
+.Built-for-every-stage-of-learning-cards-information{
+    height: 100%;
+    width: 88%;
+    /* background-color: blueviolet; */
+}
+
+.Download-microsoft-team-container{
+    height: 260px;
+    width: 100vw;
+    background-color: #4C51C7;   
+    margin-top: 150px;
+    display: flex;
+    align-items: end;
+    justify-content: end; 
+    position: relative;  
+}
+
+.Download-microsoft-team-information{
+    width: 40%;
+
+    position: absolute;
+    top: 50px;
+    left: 27%;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Download-microsoft-team-information span{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.Download-microsoft-team-information p{
+    color: white;
+    font-size: 16px;
+}
+
+.Download-microsoft-team-information a{
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+
+.Build-community-container{
+    height: 500px;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Build-community-img{
+    height: 80%;
+    width: 45%;
+    /* background-color: yellow; */
+}
+
+.Build-community-img img{
+    height:100%;
+    width: 100%;
+    object-fit: cover ;
+}
+
+.Build-community-info{
+    height: 70%;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.Get-what-you-need-container{
+    height: 800px;
+    width: 100vw;
+   background-color: red;
+   position: relative;
+}
+
+.Get-what-you-need-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+
+}
+
+.Get-what-you-need-info{
+    height: 250px;
+    width: 400px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 220px;
+    right: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+
+.See-how-educational-organizations-are-using-Teams-heading{
+    height: 200px;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+;
+}
+
+
+.See-how-educational-organizations-container{
+    height: 1500px;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+    margin-top: 80px;
+}
+
+.See-how-educational-organizations-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    
+}
+
+.See-how-educational-organizations-cards1-container{
+    height: 55%;
+    width: 90%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.See-how-educational-organizations-card1{
+    height: 100%;
+    width: 49%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(210, 205, 205);
+    overflow: hidden;
+
+}
+
+.See-how-educational-organizations-card1-info{
+    height: 50%;
+    width: 93%;
+    /* background-color: blue; */
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.See-how-educational-organizations-card1-info span{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.read-story-btn a{
+    text-decoration: none;
+    color: #5F5BCC;
+    font-weight: 500;
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+
+.See-how-educational-organizations-card1 img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+.See-how-educational-organizations-card2{
+    height: 100%;
+    width: 49%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(210, 205, 205);
+    overflow: hidden;
+
+}
+
+.See-how-educational-organizations-card2-info{
+    height: 55%;
+    width: 93%;
+    /* background-color: blue; */
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.See-how-educational-organizations-card2-info p{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.read-story-btn a{
+    text-decoration: none;
+    color: #5F5BCC;
+    font-weight: 500;
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+
+.See-how-educational-organizations-card2 img{
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+.Interactive-demos-card{
+    height: 430px;
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 5%;
+    display: flex;
+}
+
+.Interactive-demos-card-info{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 40px;
+}
+
+.see-demos-btn a{
+    text-decoration: none;
+    color: #5F5BCC;
+    font-weight: 500;
+    &:hover{
+        text-decoration: underline;
+    }
+
+
+}
+
+.Interactive-demos-card img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.Additional-resources-container{
+    height: 650px;
+    width: 100vw;
+    /* background-color: red; */
+    margin-top: 50px;
+}
+
+.Additional-resources-heading{
+    height: 25%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Additional-resources-cards-container{
+    height: 75%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Additional-resources-card{
+    height: 90%;
+    width: 22%;
+    /* background-color: yellow; */
+}
+
+.Additional-resources-card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Additional-resources-card h4{
+    margin-top: 15px;
+}
+
+.Additional-resources-card-btn a{
+   text-decoration: none;
+   color: #4C51C7;
+   font-weight: 500;
+   &:hover{
+    text-decoration: underline;
+   }
+}
+
+
+
+
+
+.Frequently-asked-questions-container {
+  max-width: 90vw;
+  margin-left:50px;
+  /* background-color: red; */
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.controls {
+  margin: 10px 0 20px;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: #0062cc;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.Frequently-asked-questions-item {
+  /* border-top: 1px solid #ddd; */
+  padding: 20px 0;
+}
+
+.Frequently-asked-question {
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.Frequently-asked-question::before {
+  content: "›";
+  font-size: 28px;
+  margin-right: 15px;
+  transition: transform 0.3s;
+}
+
+.Frequently-asked-questions-item.active .Frequently-asked-question::before {
+  transform: rotate(90deg);
+}
+
+.Frequently-asked-answer {
+  display: none;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: 50px;
+}
+
+.Frequently-asked-questions-item.active .Frequently-asked-answer {
+  display: block;
+}
+
+
+.Learn-more-about-Microsoft-Teams-container{
+    height: 300px;
+    width: 100vw;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.Learn-more-about-Microsoft-Teams-heading{
+    height: 30%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Learn-more-about-Microsoft-Teams-links-container{
+    height: 60%;
+    width: 90%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.Learn-more-about-Microsoft-Teams-links{
+    height: 90%;
+    width: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.Learn-more-about-Microsoft-Teams-links img{
+    height: 50%;
+    width: 50%;
+    object-fit:contain;
+}
+
+
+.Get-even-more-with-Microsoft-365-Education-container{
+    height: 400px;
+    width: 100vw;
+    background:#4B54BD; 
+     z-index: 12;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.Get-even-more-with-Microsoft-365-Education-info-container{
+    height: 70%;
+    width: 40%;
+    /* background-color: red; */
+    position: absolute;
+    top: 10%;
+    left: 28%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: white;
+}
+
+.Get-even-more-with-Microsoft-365-Education-info-container a{
+    text-decoration: none;
+    color:#4B54BD;
+    padding: 8px 16px;
+    background-color: white;
+    font-weight: 500;
+}
+
+.follow-microsoft-teams-icon{
+    height: 70px;
+    width: 400px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.follow-microsoft-teams-icon span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.follow-microsoft-teams-icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* footer code */
+
+
+footer{
+    background-color: #f3f3f3;
+    margin-top: 20px;
+}
+.footer-container{
+     padding: 40px 0;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-container div{
+    
+    padding: 0 20px;
+    width: 340px;
+
+}
+.whats-new{
+    padding-left: 60px;
+}
+.whats-new span{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.whats-new ul{
+    list-style: none;
+}
+.whats-new ul li{
+    margin-bottom: 10px;
+}
+.whats-new ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 11px;
+}
+.whats-new ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.microsoft-store{
+    padding-left: 60px;
+}
+.microsoft-store span{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.microsoft-store ul{
+    list-style: none;
+}
+.microsoft-store ul li{
+    margin-bottom: 10px;
+}
+.microsoft-store ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 11px;
+}
+.microsoft-store ul li a:hover{
+    text-decoration: underline;
+}
+
+.education{
+    padding-left: 60px;
+    width: 450px;
+}
+.education span{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.education ul{
+    list-style: none;
+}
+.education ul li{
+    margin-bottom: 10px;
+}
+.education ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 11px;
+}
+.education ul li a:hover{
+    text-decoration: underline;
+}
+
+.business{
+    padding-left: 60px;
+}
+.business span{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.business ul{
+    list-style: none;
+}
+.business ul li{
+    margin-bottom: 10px;
+}
+.business ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 11px;
+}
+.business ul li a:hover{
+    text-decoration: underline;
+}
+.developer{
+    padding-left: 60px;
+}
+.developer span{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.developer ul{
+    list-style: none;
+}
+.developer ul li{
+    margin-bottom: 10px;
+}
+.developer ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 11px;
+}
+.developer ul li a:hover{
+    text-decoration: underline;
+}
+.company{
+    padding-left: 60px;
+}
+.company span{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.company ul{
+    list-style: none;
+}
+.company ul li{
+    margin-bottom: 10px;
+}
+.company ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 11px;
+}
+.company ul li a:hover{
+    text-decoration: underline;
+}
+
+.main-links{
+    display: flex;
+    justify-content: space-between;
+}
+.language-selector{
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+}
+.language-selector a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 12px;
+}
+.language-selector a:hover{
+    text-decoration: underline;
+}
+.other-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+  
+.other-links a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 12px;
+}
+.other-links a:hover{
+    text-decoration: underline;
+}
